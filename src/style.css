@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(180, 171, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80vw;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 4px 8px 0px rgba(224, 42, 42, 0.2);
+    padding: 5px;
+}
+.container h1 {
+    text-align: center;
+}
+
+.container .amount-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 2%;
+}
+
+.container .amount-container label {
+    font-size: 20px;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.container .amount-container input {
+    width: 65%;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    border: 1px solid black;
+}
+
+#exchange-icon {
+    width: 25px;
+}
+
+.container .countries-container {
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+}
+
+.container .result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .result p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container .convert-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .convert-btn button{
+    padding: 10px;
+    width: 10rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container .countries-container .country-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid rgb(180, 171, 171);
+    border-radius: 10px;
+}
+
+.container .countries-container .country-box img {
+    width: 30px;
+}
+
+.container .countries-container .country-box select{
+    width: 10rem;
+    height: 2rem;
+    margin: 3px;
+    border: none;
+}
