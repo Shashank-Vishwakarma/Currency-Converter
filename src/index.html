@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="amount-container">
+            <label for="amt">Amount:</label>
+            <input type="number" name="amount" placeholder="Enter Amount">
+        </div>
+        <div class="countries-container">
+            <div class="country-box">
+                <img src="../assets/exchange.png" id="fromCountryImage">
+                <select name="fromCountry" id="from"></select>
+            </div>
+            <img src="../assets/exchange.png" id="exchange-icon">
+            <div class="country-box">
+                <img src="../assets/exchange.png" id="toCountryImage">
+                <select name="toCountry" id="to"></select>
+            </div>
+        </div>
+        <div class="result">
+            <p>1 USD = 80 INR</p>
+        </div>
+        <div class="convert-btn">
+            <button type="submit">Convert</button>
+        </div>
+    </div>
+    <script src="./countries.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
